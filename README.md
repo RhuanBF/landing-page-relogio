@@ -23,3 +23,5 @@ O GSAP é responsável pelas animações dos elementos da página através do Sc
 }
 </script>
 ```
+
+Com esse projeto aprendi a mexer com o motor WebGL, compreendendo o espaço X, Y e Z de um modelo 3D e como cada eixo influencia na posição, rotação e escala dos elementos dentro da cena. Foi um aprendizado essencial para entender como o Three.js renderiza e manipula objetos tridimensionais dentro do navegador.
