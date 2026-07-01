@@ -10,9 +10,16 @@ O GSAP é responsável pelas animações dos elementos da página através do Sc
 
 ```html
 <!-- GSAP + ScrollTrigger -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
 
 <!-- Three.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script type="importmap">
+{
+"imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/"
+}
+}
+</script>
 ```
